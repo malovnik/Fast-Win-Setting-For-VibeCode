@@ -212,8 +212,20 @@ cargo test
 - `scripts\verify-install.ps1` - Проверка и финализация установки
 - `scripts\check-setup.ps1` - Проверка текущего состояния
 
-### Дополнительные:
+### Дополнительные инструменты:
+- `scripts\install-all-extras.ps1` - ⭐ Установить ВСЁ дополнительное (Docker, БД, и т.д.)
+- `scripts\install-docker.ps1` - Docker Desktop
+- `scripts\install-databases.ps1` - PostgreSQL, MongoDB, Redis + GUI
+- `scripts\install-api-tools.ps1` - Postman, Insomnia
+- `scripts\install-python-extras.ps1` - Jupyter, Django, FastAPI, Data Science
+- `scripts\install-frontend-tools.ps1` - Next.js, Tailwind, shadcn/ui
+- `scripts\install-terminal-tools.ps1` - Oh My Posh, fzf, bat, ripgrep
+- `scripts\install-linters.ps1` - Markdown, YAML, JSON linters
+- `scripts\install-monitoring-tools.ps1` - Process Explorer, btop, Wireshark
+
+### Проекты:
 - `scripts\init-project.ps1` - Инициализация нового проекта
+- `scripts\init-shared.ps1` - Создание shared окружений
 - `scripts\setup-simple.ps1` - Базовая установка инструментов
 
 ## 🆘 Решение проблем
