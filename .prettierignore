@@ -1,0 +1,18 @@
+# Игнорировать для Prettier
+node_modules/
+.venv/
+target/
+dist/
+build/
+coverage/
+.next/
+out/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Compiled
+*.min.js
+*.min.css

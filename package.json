@@ -1,0 +1,21 @@
+{
+  "name": "dev-project",
+  "version": "0.1.0",
+  "description": "Multi-language development project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Add your dev script here'",
+    "build": "echo 'Add your build script here'",
+    "test": "echo 'Add your test script here'",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0",
+    "typescript": "^5.6.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
